@@ -8,7 +8,7 @@ extern "C" void gpuMax(Mat* m1, Mat* m2, Mat* m3, float* xout, float* yout);
 extern "C" void gpuFeatureMatch(Feature* source, Feature* target, int sourcenum, int targetnum, int* ans);
 
 #define DRAW_POINT 1
-#define DRAW_DIRECTION 0
+#define DRAW_DIRECTION 1
 #define DRAW_DELTA 1
 #define ACCURATE_POSITION 1
 #define VARIABLE_SIZE 0
