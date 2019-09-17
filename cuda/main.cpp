@@ -63,8 +63,8 @@ int threashold = 0;
 float edgeThreashold = 5.0f;
 float preBlur = 0.5f;
 const float pi = 3.14159f;
-float edgeWidth = 2.0f;
-float matchThreashold = 0.99f;
+float edgeWidth = 3.0f;
+float matchThreashold = 0.9f;
 float featurescale = 3.0;
 
 Feature feature[10000], matchTarget[10000], hostfeature[10000];
@@ -598,6 +598,7 @@ void draw(Mat* m) {
 			feature[i].cloneto(&matchTarget[i]);
 		}
 		targetNum = pos;
+		cout << pos << endl;
 	}
 	pos = 0;
 }
