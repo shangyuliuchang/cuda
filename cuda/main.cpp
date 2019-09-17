@@ -63,7 +63,7 @@ int threashold = 0;
 float edgeThreashold = 5.0f;
 float preBlur = 0.5f;
 const float pi = 3.14159f;
-float edgeWidth = 3.0f;
+float edgeWidth = 2.0f;
 float matchThreashold = 0.99f;
 float featurescale = 3.0;
 
